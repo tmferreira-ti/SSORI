@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Funcionando"
+echo "Funcionando SSORI SRV1"

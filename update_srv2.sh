@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Funcionando SRV2"
+echo "Funcionando SSORI SRV2"
