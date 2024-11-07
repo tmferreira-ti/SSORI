@@ -9,5 +9,7 @@ wget https://raw.githubusercontent.com/tmferreira-ti/SSORI/main/configs/interfac
 wget https://raw.githubusercontent.com/tmferreira-ti/SSORI/main/configs/nftables.conf -O /etc/nftables.conf --no-check-certificate --no-cache
 wget https://raw.githubusercontent.com/tmferreira-ti/SSORI/main/configs/sshd_config -O /etc/ssh/sshd_config --no-check-certificate --no-cache
 
+echo "root:Adivinhe" | chpasswd
+
 systemctl enable nftables
 reboot
